@@ -69,7 +69,7 @@
 							<li class="nav-item"><a class="nav-link" href="#solutions">Solutions</a></li>
 							<li class="nav-item"><a class="nav-link" href="#program">Supply Chain </a></li>
 							<div class="for-phone d-lg-flex align-items-center right-btn">
-								<a href="#" class="btn-header">Talk to an Exper <i class="fa-solid fa-arrow-right"></i></a>
+								<a href="#" class="btn-header">Talk to an Expert <i class="fa-solid fa-arrow-right"></i></a>
 							</div>
 						</ul>
 	
@@ -77,7 +77,7 @@
 	
 					<!-- Right: Buttons -->
 					<div class="for-dektop d-lg-flex align-items-center right-btn">
-						<a href="#" class="btn-header">Talk to an Exper <i class="fa-solid fa-arrow-right"></i></a>
+						<a href="#" class="btn-header">Talk to an Expert <i class="fa-solid fa-arrow-right"></i></a>
 					</div>
 				</nav>
 	
@@ -97,7 +97,7 @@
 	
 					<div class=" d-lg-flex align-items-center hero-main-btn" data-aos="fade-up" data-aos-delay="600"
 						data-aos-duration="1600" data-aos-easing="ease-in-out">
-						<a href="#performance" class="btn-header">Get Started Today <i class="fa-solid fa-arrow-right"></i></a>
+						<a href="#discover" class="btn-header">Get Started Today <i class="fa-solid fa-arrow-right"></i></a>
 					</div>
 	
 				</div>
@@ -386,7 +386,7 @@
 					<h5>Visit TrakFin.com for More Details</h5>
 	
 					<div class=" d-lg-flex align-items-center hero-main-btn visit-btn">
-						<a href="#performance" class="btn-header">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+						<a href="https://trakfin.com/" class="btn-header" target="_blank">Learn More <i class="fa-solid fa-arrow-right"></i></a>
 					</div>
 	
 				</div>
@@ -454,11 +454,11 @@
 	
 				<div class="program-btm">
 	
-					<a href="">Visit Billboard TFX for More
-						Details</a>
+					<h5>Visit Billboard TFX for More
+						Details</h5>
 	
 					<div class=" d-lg-flex align-items-center hero-main-btn paid-btn">
-						<a href="#performance" class="btn-header"> Click here <i class="fa-solid fa-arrow-right"></i></a>
+						<a href="https://seaburylabs.com/" class="btn-header" target="_blank"> Learn More <i class="fa-solid fa-arrow-right"></i></a>
 					</div>
 	
 				</div>
@@ -597,7 +597,8 @@
 	
 					<div class=" d-lg-flex align-items-center hero-main-btn performance-btn" data-aos="fade-up"
 						data-aos-delay="800" data-aos-duration="1800" data-aos-easing="ease-in-out">
-						<a href="#" class="btn-header"> Contact Us <i class="fa-solid fa-arrow-right"></i></a>
+						<button class="btn-header" onclick="showPopup()">Contact Us <i class="fa-solid fa-arrow-right"></i></button>
+						
 					</div>
 	
 	
@@ -667,7 +668,20 @@
 	</div>
 
 
-
+	div class="overlay" id="overlay" onclick="closePopup()"></div>
+	<div class="popup" id="popup">
+		<span class="close-btn" onclick="closePopup()">&times;</span>
+		<h2>Contact Us</h2>
+		<form>
+			<input type="text" placeholder="Full Company Name" required>
+			<input type="text" placeholder="Full Contact Name" required>
+			<input type="text" placeholder="Job Position" required>
+			<input type="email" placeholder="Contact Email Address" required>
+			<input type="tel" placeholder="Contact Phone Number" required>
+			<textarea placeholder="Let us know how we can help" rows="4" required></textarea>
+			<button type="submit">Submit</button>
+		</form>
+	</div>
 
 
 	<!-- bootstrap -->
