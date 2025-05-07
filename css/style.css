@@ -8,7 +8,7 @@
 html{
     scroll-behavior: smooth;
 }
-body{
+.all-wrap{
 	overflow-x: hidden;
 }
 #hero{
