@@ -72,7 +72,7 @@
         margin-top: 100px;
     }
     .hero-main h1{
-        font-size: 40px;
+        font-size:35px;
     }
     .hero-content-wrapper {
         width: 100%;
@@ -127,7 +127,7 @@
         width: 100%;
     }
     .paid-bio {
-        padding: 20px 0;
+        padding: 50px 30px;
     }
     .paid-info-photo {
         width: 100%;

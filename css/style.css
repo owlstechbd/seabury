@@ -569,6 +569,24 @@ p{
 .about-main p{
 	color: #fff;
 }
+.title-black h1{
+	font-weight: 600;
+	font-size: 50px;
+	padding-bottom: 30px;
+}
+.title-black h1 span{
+	color:#2B31FF;
+	position: relative;
+}
+.title-black h1 span::after {
+    content: "";
+    position: absolute;
+    background: url(../images/Vector.png) center center no-repeat;
+    width: 100%;
+    height: 30px;
+    left: 0;
+    top: 61px;
+}
 #footer{
 	width: 100%;
 	padding: 40px 0;
