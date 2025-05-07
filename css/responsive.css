@@ -1,0 +1,253 @@
+@media  screen and (max-width: 1600px){
+    .hero-main h1{
+        font-size: 55px;
+    }
+    .hero-main p{font-size: 18px;}
+    .hero-main {
+        max-width: 80%;
+    }
+    .trakfin-right img {
+        width: 72%;
+    }
+}
+@media  screen and (max-width: 1450px){
+    .trakfin-right img {
+        width: 67%;
+    }
+}
+@media  screen and (max-width: 1300px){
+    .trakfin-right img {
+        width: 58%;
+    }
+}
+@media  screen and (max-width: 1150px){
+    .trakfin-right img {
+       display: none;
+    }
+    .hero-main{
+        max-width: 100%;
+    }
+    .hero-content-wrapper{
+        width: 100%;
+    }
+    .for-dektop{
+        display: none;
+    }
+    .for-phone{
+        display: block!important;
+    }
+    ul.navbar-nav.nav-center li{
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+    .solutions-box{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .program-box{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    #trakfin{
+        padding-bottom: 200px;
+    }
+    .performance-main{
+        padding: 100px 50px;
+    }
+    .about-main {
+        width: 90%;
+        margin: 0 auto;
+        color: #FFF;
+    }
+}
+@media  screen and (max-width: 720px){
+    #hero {
+        height: 80vh;
+    }
+    .video-background{
+        height: 80%;
+
+    }
+    .hero-main{
+        margin-top: 100px;
+    }
+    .hero-main h1{
+        font-size: 40px;
+    }
+    .hero-content-wrapper {
+        width: 100%;
+        min-height: auto;
+    }
+    .solutions-main {
+        width: 100%;
+    }
+    .solutions-main h1 {
+        font-size: 45px;
+    }
+    .mar-top{
+        margin-top: 30px;
+    }
+    .program-main {
+        width: 100%;
+    }
+    .program-main h1 {
+        font-size: 32px;
+    }
+    .program-box-all {
+        margin-top: 50px;
+    }
+    .program-btm{
+        width: 100%;
+    }
+    .trakfin-info {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    #trakfin {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background: #EBEAFA;
+    }
+    #visit {
+        padding: 50px 0;
+    }
+    .visit-main {
+        width: 100%;
+    }
+    #paid {
+        width: 100%;
+        padding: 50px 0 ;
+        background: url(../images/paid.png) center bottom;
+    }
+    .paid-details {
+        display: flex;
+        flex-flow: column;
+    }
+    .paid-info {
+        width: 100%;
+    }
+    .paid-bio {
+        padding: 20px 0;
+    }
+    .paid-info-photo {
+        width: 100%;
+    }
+    .flex-res{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .program-btm {
+        margin-top: 20px;
+    }
+
+    .choose-box {
+        display: flex;
+        flex-flow: column;
+    }
+    .choose-box-photo img{
+        margin-bottom: 20px;
+    }
+    .trakfin-right img {
+        display: none;
+    }
+    .title-black h1{
+        font-size: 31px;
+    }
+    .trakfin-blue h1{
+        font-size: 31px;
+    }
+    .trakfin-blue img {
+        width: 200px;
+    }
+    .discover-black h1{
+          font-size: 38px;  
+    }
+
+    .discover-blue h1{
+        font-size: 38px;
+    }
+    .discover-blue img{
+       width: 300px;
+    }
+    #performance {
+        padding: 0px;
+        padding-bottom: 70px;
+    }
+    .performance-main {
+        width: 100%;
+        padding: 20px;
+    }
+    .performance-photo img {
+        width: 75px;
+    }
+    .performance-main h1{
+        font-size: 38px;
+    }
+    .performance-photo {
+        left: 5px;
+        bottom: 5px;
+    }
+    #about{
+        padding-top: 20px ;
+        padding-bottom: 5px;
+    }
+    .about-main {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .about-main h1 {
+        font-size: 45px;
+        margin-bottom: 10px; 
+    }
+    .about-main img {
+        width: 300px;
+        margin: 10px 0;
+        margin-bottom: 20px;
+    }
+    .about-main h5 {
+        margin-bottom: 10px;
+    }
+    .footer-main {
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+    }
+    .footer-right{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media  screen and (max-width:920px){
+    .top-header-btn {
+        width: 88%;
+    }
+}
+
+@media  screen and (max-width:600px){
+    .video-background {
+        height: 100%;
+    }
+    #hero{
+        height: 100vh;
+    }
+    .hero-main{
+        margin-top: 130px;
+    }
+    .hero-main p {
+        font-size: 16px;
+    }
+}
+
+@media  screen and (max-width:380px){
+    .hero-main{
+        margin-top: 50px;
+    }
+    .hero-main p {
+        font-size: 16px;
+    }
+    .hero-main h1 {
+        font-size: 35px;
+    }
+}
+
