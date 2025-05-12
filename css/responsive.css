@@ -20,7 +20,7 @@
         width: 58%;
     }
 }
-@media  screen and (max-width: 1150px){
+@media  screen and (max-width: 1151px){
     .trakfin-right img {
        display: none;
     }
@@ -30,12 +30,7 @@
     .hero-content-wrapper{
         width: 100%;
     }
-    .for-dektop{
-        display: none;
-    }
-    .for-phone{
-        display: block!important;
-    }
+    
     ul.navbar-nav.nav-center li{
         padding-left: 0;
         padding-bottom: 20px;
@@ -59,6 +54,16 @@
         margin: 0 auto;
         color: #FFF;
     }
+}
+@media  screen and (max-width: 992px){
+    .for-dektop{
+        display: none!important;
+    }
+    
+    .for-phone{
+        display: block!important;
+    }
+    
 }
 @media  screen and (max-width: 720px){
     #hero {
@@ -117,7 +122,7 @@
     #paid {
         width: 100%;
         padding: 50px 0 ;
-        background: url(../images/paid.png) center bottom;
+        
     }
     .paid-details {
         display: flex;

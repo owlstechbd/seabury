@@ -327,12 +327,28 @@ p{
 	padding: 25px;
 	border: 1px solid rgba(189, 189, 189, 1);
 	border-radius: 8px;
+	transition: .6s;
 }
 .program-box h6{
 	color: rgba(43, 49, 255, 1);
 	margin-bottom: 30px;
 	font-weight: 600;
 }
+
+.program-box h6,
+.program-box p {
+	transition: .6s;
+}
+.program-box:hover h6,
+.program-box:hover p {
+	color: #fff;
+}
+.program-box:hover{
+	color: #fff;
+	transform: translateY(-15px);
+	background: #2B31FF;
+}
+
 .box-cl-blu h6{
 	color: #fff;
 }
@@ -352,6 +368,7 @@ p{
 
 }
 .btm-lin a{
+	font-size: 1.25rem;
 	border-bottom: 2px solid rgba(69, 69, 69, 1) ;
 }
 #trakfin{
@@ -407,10 +424,24 @@ p{
 	transition: .6s;
 }
 .trakfin-box:hover{
+	background: #2B31FF;
 	transform: translateY(-10px);
 }
+.trakfin-box h5,
+.trakfin-box p{
+	transition: .6s;
+}
+.trakfin-box:hover h5,
+.trakfin-box:hover p{
+	color: #fff;
+}
+
 .trakfin-box img{
+	transition: .6s;
 	margin-bottom: 20px;
+}
+.trakfin-box:hover img{
+	filter: brightness(0) invert(1);
 }
 .trakfin-box h5{
 	font-size: 18px;
@@ -448,8 +479,10 @@ p{
 #paid{
 	width: 100%;
 	padding: 70px 0;
-	background: url(../images/paid.png) center bottom;
+	background: linear-gradient(180deg, #FCFBFF 0%, #EBEAFA 100%);
+
 }
+
 .paid-main{
 	margin-top: 20px;
 	width: 100%;
@@ -503,6 +536,11 @@ p{
 	border: 1px solid rgba(225, 225, 225, 1);
 	border-radius: 5px;
 	height: 100%;
+	transition: .6s;
+}
+.choose-box:hover{
+	background: #2B31FF;
+	transform: translateY(-10px);
 }
 .choose-box h5{
 	font-weight: 600;
@@ -511,6 +549,14 @@ p{
 	width: 80px;
 	margin-right: 20px;
 
+}
+.choose-box h5,
+.choose-box p{
+	transition: .6s;
+}
+.choose-box:hover h5,
+.choose-box:hover p{
+	color: #fff;
 }
 .choose-main-mar{
 	margin-top: 30px;
